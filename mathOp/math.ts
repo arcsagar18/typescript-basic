@@ -25,7 +25,9 @@ const mathOp = (val1: number,val2 : number, op: string):string => {
 
 const main = () => {
     const output: string = mathOp(2,3,'add1');
-    console.log('output',output)
+
+    const myOutput = output + 4
+    console.log('myOutput',output)
 }
 
 main()
